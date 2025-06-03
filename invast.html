@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investment Plans</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- User Info Box with dynamic counters -->
+<div class="mt-10 grid grid-cols-2 gap-4 max-w-xs mx-auto">
+  <div class="bg-black glow-box rounded-xl p-4 text-center border border-cyan-500">
+    <h3 class="text-cyan-400 text-sm font-semibold"> Total Return</h3>
+    <p id="registeredCount" class="text-white text-xl font-bold mt-1">348</p>
+  </div>
+  <div class="bg-black glow-box rounded-xl p-4 text-center border border-cyan-500">
+    <h3 class="text-cyan-400 text-sm font-semibold">👤 Total Users</h3>
+    <p id="totalCount" class="text-white text-xl font-bold mt-1">1265</p>
+  </div>
+</div>
+
+
+<body class="min-h-screen flex flex-col items-center px-4 py-6">
+  <div class="w-full max-w-5xl">
+    <!-- Top Info Box with ticker effect -->
+    <div class="bg-black glow-box rounded-3xl p-6 mb-10 border border-cyan-500 overflow-hidden relative">
+      <div class="absolute w-full top-0 left-0 h-8 bg-cyan-700 text-white flex items-center justify-center">
+        <p class="ticker-text whitespace-nowrap font-semibold">
+  📢 Breaking: Invest smartly and earn up to 1% per day directly in your Exness account! 🚀
+</p>
+
+      </div>
+      <div class="mt-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-center text-cyan-300 mb-4">💡 Important Information</h2>
+        <p class="text-cyan-100 text-center text-base md:text-lg">
+          Welcome to our investment plans. Earn daily with secure and simple investments. Money is transferred directly to your Exness account. Choose a plan that suits you best.
+        </p>
+      </div>
+    </div>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-center text-cyan-400 mb-8">💸 Invest & Earn Daily</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Plan A -->
+      <div class="bg-black rounded-3xl glow-box p-6 flex flex-col items-center text-center hover:scale-105 transition-transform">
+        <h2 class="text-xl font-bold text-cyan-400">Plan A</h2>
+        <p class="mt-2 text-cyan-200">Invest: <span class="font-semibold">₹7,000</span></p>
+        <p>Daily Return: <span class="text-green-400 font-semibold">1%</span></p>
+        <p>Duration: 10 Days</p>
+        <p class="mt-2 text-green-400 font-bold">Money will be transferred to your Exness account after 10 days</p>
+        <a href="https://payments.cashfree.com/links?code=L8l8haept1j0" class="mt-4 bg-cyan-600 text-white px-4 py-2 rounded-xl w-full hover:bg-cyan-700 transition text-center">Invest Now</a>
+      </div>
+
+      <!-- Plan B -->
+      <div class="bg-black rounded-3xl glow-box p-6 flex flex-col items-center text-center hover:scale-105 transition-transform">
+        <h2 class="text-xl font-bold text-yellow-400">Plan B</h2>
+        <p class="mt-2 text-cyan-200">Invest: <span class="font-semibold">₹10,000</span></p>
+        <p>Daily Return: <span class="text-green-400 font-semibold">0.5%</span></p>
+        <p>Duration: 10 Days</p>
+        <p class="mt-2 text-green-400 font-bold">Money will be transferred to your Exness account daily</p>
+        <a href="https://payments.cashfree.com/links?code=a8l8h7k1t1j0" class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-xl w-full hover:bg-yellow-600 transition text-center">Invest Now</a>
+      </div>
+
+      <!-- Plan C -->
+      <div class="bg-black rounded-3xl glow-box p-6 flex flex-col items-center text-center hover:scale-105 transition-transform">
+        <h2 class="text-xl font-bold text-green-400">Plan C</h2>
+        <p class="mt-2 text-cyan-200">Invest: <span class="font-semibold">₹15,000</span></p>
+        <p>Daily Return: <span class="text-green-400 font-semibold">1%</span></p>
+        <p>Duration: 10 Days</p>
+        <p class="mt-2 text-green-400 font-bold">Money will be transferred to your Exness account daily</p>
+        <a href="https://payments.cashfree.com/links?code=m8l8fsdvk6dg" class="mt-4 bg-green-500 text-white px-4 py-2 rounded-xl w-full hover:bg-green-600 transition text-center">Invest Now</a>
+      </div>
+    </div>
+
+    <p class="mt-10 text-center text-cyan-500 text-sm">No registration needed. Start investing directly! 🚀</p>
+
+    <!-- Gmail Support Button -->
+    <div class="mt-8 flex justify-center">
+      <a href="bittrademasters@gmail.com" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition text-lg">Gmail Support</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
